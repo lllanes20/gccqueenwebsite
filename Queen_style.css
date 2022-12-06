@@ -1,0 +1,207 @@
+/* Navigation Bar */
+* {
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+   box-sizing: border-box;
+}
+
+nav {
+	background: #000000;
+	height: 80px;
+	width: 100%;
+	display: flex;
+}
+
+label.logo {
+	color: white;
+	font-size: 40px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+	font-family: Geneva;
+}
+
+nav ul {
+	float: right;
+	margin-right: 25 px;
+	display: flex;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 20px;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 15px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+nav ul li a:before{
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: 0;
+	height: 1px;
+	width: 100%;
+	background: white;
+}
+
+a.active,a:hover{
+	background-color: rgb(255,0,0);
+}
+
+label.logo {
+	color: white;
+	font-size: 40px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+	font-family: Geneva;
+}
+
+nav ul {
+	float: right;
+	margin-right: 25 px;
+	display: flex;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 20px;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 15px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+nav ul li a:before{
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: 0;
+	height: 1px;
+	width: 100%;
+	background: white;
+}
+
+a.active,a:hover{
+	background-color: rgb(255,0,0);
+}
+/* Body Style*/
+
+body {
+	background-image: url("bw_band.png");
+	background-repeat: round;
+	background-size: 250px;
+	font-family: helvetica;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* Body Background Style */
+.container {
+	margin: 50px auto;
+	width: 100%;
+	padding: 8px;
+	background: white;
+	padding: 25 px 25px 25px 25px;
+}
+
+img {
+	float: left;
+	width: 400px;
+	height: 390px;
+	padding: 25px 25px 0 25px;
+}
+	
+.text {
+	text-align: justify;
+	padding: 25px 25px 25px 25px;
+}
+
+/* Article  Styles */
+article {
+	clear: both;
+	padding: 30px 20px 10px 20px;
+}
+
+article header {
+	margin: 20px auto;	
+	width: 70%;
+}
+
+article header h1 {
+	color: rgb(255,0,0);	
+	font-family: Georgia;
+	font-size: 3em;
+	text-align: center;
+	letter-spacing: 2px;
+	font-weight: italic;
+	text-shadow: 2px 2px 4px black;
+}
+
+article h2, h3{
+	font-family: Calibri;
+	color: rgb(128,0,0);
+	font-size: 1.5em;
+	letter-spacing: 2px;
+	line-height: 2
+}
+
+article p{
+	letter-spacing: 1px;
+	word-spacing: 3px;
+}
+
+.section img {
+	height: 250px;
+}
+
+/* Footer Style*/
+
+footer {
+	background: #000000;
+	color: white;
+	height: 110px;
+	width: 100%;
+	display: flex;
+	padding-right: 20px;
+}
+
+footer img{
+	width: 85px;
+	height: 60px;
+	position: left;
+	top:10px;
+	left: 5%;
+}
+
+footer li a{
+	color: white;
+}
+
+*,*:before,*after{
+	box-sizing: border-box;
+}
+
+.footer-left p{
+	padding: 20px 20px 20px 20px;
+	position: center;
+	color: white;
+}
+
+.box{
+	position: right;
+	padding: 10px 10px 10px 10px;
+}
+	
+	
